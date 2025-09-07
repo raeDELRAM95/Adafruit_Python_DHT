@@ -55,7 +55,8 @@ def platform_detect():
         return BEAGLEBONE_BLACK
 
     # Couldn't figure out the platform, just return unknown.
-    return UNKNOWN
+    return 1
+    # return UNKNOWN
 
 
 def pi_revision():
